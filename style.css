@@ -21,9 +21,12 @@ body{
 }
 .absoluteCenter{
 	position: absolute;
-	top: 65%;
-	left: 22%;
-	color: white;
+	top: 35%;
+	left: 30%;
+}
+
+.bg{
+	z-index: -1;
 }
 .absoluteDot{
 	position: absolute;

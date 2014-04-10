@@ -1,0 +1,42 @@
+/*CSS By vipul.saxena01@gmail.com*/
+body{
+	background-color: wheat;
+}
+/*Mouse Out Modal- Full width*/
+.mouseoutModal{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #438eb9;
+	height: 100%;
+	width: 100%;
+}
+/*Positioning*/
+.absoluteTop{
+	position: absolute;
+	top: 20%;
+	left: 35%;
+}
+.absoluteCenter{
+	position: absolute;
+	top: 65%;
+	left: 22%;
+	color: white;
+}
+.absoluteDot{
+	position: absolute;
+	left: 60%;
+	top: 87%;
+	width: 1%;
+}
+/*To Add glowing ligh on telephone*/
+.glow{
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, 0.75);
+	box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, 0.75);
+	background-color: rgba(255, 0, 0, 0.48);
+}
